@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三国杀</title>
+    <!-- 引入相关的css文件 -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/style copy.css">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <!-- 引入相关的js文件 -->
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <audio autoplay loop>
+        <source src="media/198.汪苏泷 - 一笑倾城.mp3" type="audio/mpeg">
+    </audio>
+    <section id="nav" class="nav fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="https://www.sanguosha.cn/new_index_pc/img/logo.png" alt="">
+                    <span>三国杀</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="#home">首页 <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#about">关于</a>
+                        <a class="nav-link" href="#menu">菜单</a>
+                        <a class="nav-link" href="#gallery">相册</a>
+                        <a class="nav-link" href="#newsletter">订阅</a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!--焦点图模块-->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="jumbotron">
+                        <p class="lead">神 郭嘉</p>
+                        <h1 class="display-4">笑揽世间众生，坐观天行定数！</h1>
+                        <a class="btn btn-outline-primary btn-lg" href="#" role="button">觉醒</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--关于模块-->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 d-none d-md-block">
+                    <img class="img-fluid" src="images/cc5fa912c977ec102a2e2037023bf6e6.jpeg">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2><small>How are you feeling?</small></h2>
+                    <h2>Choose your current mood！</h2>
+                    <p class="">Are your neutral or expressionless or laughing?</p>
+                    <!-- <a class="btn btn-outline-primary" href="#" role="button" >Learn more</a> -->
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="icons text-center">
+                                <i class="bi bi-emoji-frown""></i>
+                                <p>Emoji neutral</p>
+                            </div>
+                        </div>
+                        <div class=" col-4">
+                                    <div class="icons text-center">
+                                        <i class="bi bi-emoji-neutral"></i>
+                                        <p>Emoji expressionless</p>
+                                    </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="icons text-center">
+                                    <i class="bi bi-emoji-laughing"></i>
+                                    <p>Emoji laughing</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--菜单模块-->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="page-header text-center">
+                <h1>角色介绍</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/赵云.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">赵云</h5>
+                            <p class="card-text">字子龙，常山真定人。身长八尺，姿颜雄伟，汉末三国时期蜀汉名将，与关羽、张飞并称“燕南三士”。</p>
+                            <a href="https://img2.baidu.com/it/u=3692164401,442022808&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" class="btn btn-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/孙尚香.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">孙尚香</h5>
+                            <p class="card-text">吴郡富春（今浙江省杭州市富阳区）人，东汉末年讨虏将军孙权之妹，曾为左将军刘备之妻。</p>
+                            <a href="https://img2.baidu.com/it/u=107492646,2081886275&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500" class="btn btn-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card  text-center">
+                        <img src="images/姜维.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">姜维</h5>
+                            <p class="card-text">字伯约，天水郡冀县（今甘肃省天水市甘谷县）人。三国时期蜀汉名将，天水功曹姜冏之子。</p>
+                            <a href="https://img1.baidu.com/it/u=3576941594,2840531361&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" class="btn btn-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/王异.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">王异</h5>
+                            <p class="card-text">东汉末年曹操所置羌道令、益州刺史赵昂之妻，赵英、赵月之母。</p>
+                            <a href="https://img2.baidu.com/it/u=210335411,2352082958&fm=253&fmt=auto&app=138&f=JPG?w=500&h=663" class="btn btn-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/貂蝉.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">貂蝉</h5>
+                            <p class="card-text">为中国古代四大美女之一。在民间传说中，貂蝉原名任红昌，是山西一位村姑，也有人认为吕布部将秦宜禄前妻杜氏（杜秀娘）即是貂蝉。</p>
+                            <a href="https://img0.baidu.com/it/u=1553038691,2039597030&fm=253&fmt=auto&app=120&f=JPEG?w=848&h=500" class="btn btn-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/神 甘宁.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">甘宁</h5>
+                            <p class="card-text">字兴霸，巴郡临江（今重庆忠县）人，三国时期孙吴名将，官至西陵太守、折冲将军。</p>
+                            <a href="https://img1.baidu.com/it/u=2873743804,1082859261&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" class="btn btn-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 旋转木马 -->
+     <section id="rotate" class="rotate">
+        <div class="container">
+            <div class="row">
+                <ul >
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        
+     </section>
+
+    <!-- 相册模块 -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="page-header text-center">
+                <h1>三国杀手牌</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/无懈可击.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">无懈可击</h5>
+                            <p class="card-text">抵消目标锦囊对一名角色产生的效果；或抵消另一张无懈可击产生的效果。</p>
+                            <a href="https://baike.baidu.com/item/%E6%97%A0%E6%87%88%E5%8F%AF%E5%87%BB/1566616?fr=ge_ala" class="btn btn-outline-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/杀.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">杀</h5>
+                            <p class="card-text">使用目标：你攻击范围内的一名角色。作用效果：你对目标角色造成1点伤害。</p>
+                            <a href="https://baike.baidu.com/item/%E6%9D%80/7272434?fr=ge_ala" class="btn btn-outline-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/桃.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">桃</h5>
+                            <p class="card-text">使用目标是你或一名处于濒死状态的角色，作用效果是目标角色回复1点体力。</p>
+                            <a href="https://baike.baidu.com/item/%E6%A1%83/7272619?lemmaFrom=lemma_starMap&fromModule=lemma_starMap&starNodeId=eca9aca489037a4ed5278828&lemmaIdFrom=7272434" class="btn btn-outline-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/酒.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">酒</h5>
+                            <p class="card-text">作用效果：出牌阶段对自己使用，令本回合下一张【杀】所造成的伤害+1（一回合只能使用一次）。当你处于濒死状态时，对自己使用，立即回复1点体力（不能对他人使用【酒】）。</p>
+                            <a href="https://baike.baidu.com/item/%E9%85%92/7451410?lemmaFrom=lemma_starMap&fromModule=lemma_starMap&starNodeId=eca9aca489037a4ed5278828&lemmaIdFrom=7272619" class="btn btn-outline-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/闪.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">闪</h5>
+                            <p class="card-text">作用效果：抵消目标【杀】的效果。</p>
+                            <a href="https://baike.baidu.com/item/%E9%97%AA/172001?lemmaFrom=lemma_starMap&fromModule=lemma_starMap&starNodeId=eca9aca489037a4ed5278828&lemmaIdFrom=7451410" class="btn btn-outline-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img src="images/顺手牵羊.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">顺手牵羊</h5>
+                            <p class="card-text">使用时机：出牌阶段。使用目标：距离为1的一名区域里有牌的其他角色。卡牌效果：你获得目标角色的区域里的一张牌。</p>
+                            <a href="https://baike.baidu.com/item/%E9%A1%BA%E6%89%8B%E7%89%B5%E7%BE%8A/1137352?fr=ge_ala" class="btn btn-outline-primary">点我</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4"></div>
+                <div class="col-12 col-md-6 col-lg-4"></div>
+                <div class="col-12 col-md-6 col-lg-4"></div>
+                <div class="col-12 col-md-6 col-lg-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 订阅模块 -->
+    <section id="newsletter" class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h3>newsletter</h3>
+                    <p>subscribe for latest upadates</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="请输入您的邮箱地址..."
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">订阅</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 页脚模块 -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h1>coffee</h1>
+                        <p>Created By <a href="">Mr.Chi</a> Designer | All Rights Reserved!</p>
+                        <div class="row">
+                            <div class="col-md-4 offset-md-4">
+                                <div class="icons text-center">
+                                    <i class="fa fa-wechat fa-1x"></i>
+                                    <i class="fa fa-qq fa-1x"></i>
+                                    <i class="fa fa-facebook fa-1x"></i>
+                                    <i class="fa fa-twitter fa-1x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
